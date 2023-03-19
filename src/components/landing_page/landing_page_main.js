@@ -22,20 +22,15 @@ const Landing_Page_Main = () => {
               </div>
               {/* Links Section */}
               <div className="items-center md:space-x-8 justify-center justify-items-start md:justify-items-center md:flex md:pt-2 w-full left-0 top-16 px-5 md:px-10 py-3 md:py-0 border-t md:border-t-0">
-                <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
+                
+                <a className="flex cursor-pointer transition-colors duration-300 font-semibold text-blue-600">
                   Home
                 </a>
-                <a className="flex cursor-pointer transition-colors duration-300 font-semibold text-blue-600">
-                  Themes
+                <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
+                  Supports
                 </a>
                 <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
-                  Developers
-                </a>
-                <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
-                  Pricing
-                </a>
-                <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
-                  Blog
+                  Overview
                 </a>
                 <a className="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300">
                   About Us
@@ -100,8 +95,10 @@ const Landing_Page_Main = () => {
             </div>
             <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
               <p className="mb-2 text-sm font-semibold leading-none text-left text-indigo-600 uppercase">know your data</p>
-              <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">Optimized For Conversions</h3>
-              <p className="mt-5 text-lg text-gray-700 text md:text-left">Backed by data, these templates have been crafted for ultimate optimization. Now, converting your visitors into customers is easier than ever before.</p>
+              <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">How it works:</h3>
+              <p className="mt-5 text-lg text-gray-700 text md:text-left">V-Track uses an advanced Event Processing System (EPS) to track customer visits to your products across multiple ecommerce stores in real-time.
+When a customer visits a product page on any store, an event is sent to the EPS, which tracks unique visits for that product across all stores.
+If the visitor threshold for a product is breached, V-Track displays a banner on the respective store's product page indicating the number of unique visitors for that product.</p>
             </div>
           </div>
           <div className="flex flex-col mb-8 animated fadeIn sm:flex-row">
@@ -110,106 +107,42 @@ const Landing_Page_Main = () => {
             </div>
             <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
               <p className="mb-2 text-sm font-semibold leading-none text-left text-indigo-600 uppercase">Easy to customize</p>
-              <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">Make It Your Own</h3>
-              <p className="mt-5 text-lg text-gray-700 text md:text-left">All templates and components are fully customizable. You can use these templates to tell your personal story and convey your message.</p>
+              <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">Main features and benefits</h3>
+              <p className="mt-5 text-lg text-gray-700 text md:text-left">Real-time visitor tracking across multiple ecommerce stores, giving you valuable insights into customer behavior and product performance.
+Store-wise visitor count for products, allowing you to see how each store is performing and identify areas for improvement.
+Customizable visitor thresholds, allowing you to set specific goals for each product and receive alerts when they are met or exceeded.</p>
             </div>
           </div>
         </div>
       </section>
           {/* Parallax Background */}
-          <section className="flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center" style={{backgroundImage: 'url(https://www.cronyxdigital.com/hubfs/Blog%20Images/Blog%20Headers/CRONYX%20HubSpot%20Blog%20image%205.jpg)'}}>
+          <section className="flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center" style={{backgroundImage: 'url(https://i.gifer.com/BXe0.gif)'}}>
             <h1 className="text-white text-5xl font-semibold mt-20 mb-10">
-              This is Parallax Effect
+              V-TRACK SUPPORTS
             </h1>
             <span className="text-center font-bold my-20 text-white/90">
               <a href="https://egoistdeveloper.github.io/twcss-to-sass-playground/" target="_blank">
-                Convetert to SASS
+              WORDPRESS
               </a>
               <hr className="my-4" />
               <a href="https://unsplash.com/photos/8Pm_A-OHJGg" target="_blank" className="text-white/90 hover:text-white">
-                Image Source
+              SHOPIFY
               </a>
               <hr className="my-4" />
               <p>
                 <a href="https://github.com/EgoistDeveloper/my-tailwind-components/blob/main/src/templates/parallax-landing-page.html" target="_blank" className="text-white/90 hover:text-white">
-                  Source Code
-                </a>
-                |
-                <a href="https://egoistdeveloper.github.io/my-tailwind-components/./src/templates/parallax-landing-page.html" target="_blank" className="text-white/90 hover:text-white">
-                  Full Preview
+                MAJENTO
                 </a>
               </p>
             </span>
           </section>
           {/* Content */}
           <section className="p-20 space-y-8">
-            <h1 className="text-4xl text-center my-20">Tempor sit labore nostrud</h1>
+            <h1 className="text-4xl text-center my-20">Overview</h1>
             <p>
-              Exercitation non Lorem exercitation tempor amet ad esse velit. Anim
-              deserunt id nulla quis ex magna culpa exercitation. Mollit consequat
-              enim eiusmod cupidatat commodo eiusmod nulla. Id quis amet incididunt
-              cillum dolore consectetur nulla incididunt laborum excepteur
-              consectetur consectetur sunt tempor. Minim fugiat sint sunt ad elit
-              laboris est sit est laboris labore do velit. Cillum aliquip pariatur
-              deserunt eiusmod. Consequat irure nulla adipisicing deserunt culpa.
-              Veniam enim deserunt sint consequat labore. Enim ullamco ea aute duis
-              et nostrud voluptate fugiat consectetur et velit cillum anim dolore.
-              In exercitation proident proident nostrud voluptate. Fugiat elit esse
-              labore pariatur ex. Ex labore esse voluptate nisi in. Ad anim deserunt
-              reprehenderit est. Aliquip pariatur nulla dolor amet quis aliqua sit
-              nisi officia enim velit. Ad enim eu dolor quis ipsum. Nulla amet
-              consectetur adipisicing ullamco qui tempor dolor excepteur dolore anim
-              pariatur quis laboris consequat. Consectetur ullamco consectetur minim
-              eiusmod quis veniam esse consectetur anim nostrud est pariatur
-              laborum. Mollit tempor minim amet esse. Lorem officia consequat
-              eiusmod sunt. Proident occaecat velit et consequat irure est cupidatat
-              tempor ullamco. Aliquip est pariatur ea ut qui ad sit dolor laboris
-              adipisicing officia eiusmod sit. Proident Lorem ex cillum sint
-              cupidatat amet nulla veniam laborum velit pariatur. Fugiat excepteur
-              culpa sunt est anim sunt. Ea voluptate non do proident sunt ad cillum
-              enim esse.
-            </p>
-            <p>
-              Incididunt eu pariatur laborum reprehenderit duis ex cillum fugiat.
-              Occaecat tempor commodo officia esse reprehenderit commodo. Irure nisi
-              culpa anim velit esse do esse veniam dolore fugiat. Non anim elit ad
-              ad esse veniam dolore labore consectetur nulla dolor occaecat quis
-              tempor. Ad do exercitation cillum duis consequat. Ea anim aute elit
-              velit duis quis. Anim sint ut occaecat officia id exercitation ea
-              incididunt exercitation sint ex. Reprehenderit ut qui eiusmod
-              cupidatat incididunt ad reprehenderit culpa tempor quis. Elit eu dolor
-              anim tempor eu fugiat voluptate dolor aliqua sint ex proident ullamco.
-              Labore deserunt velit quis cupidatat aliquip elit do labore ut.
-              Laborum dolore incididunt officia esse reprehenderit pariatur ullamco
-              consectetur tempor officia. Dolor culpa irure enim aute ex non veniam
-              eiusmod ipsum elit est sit mollit dolor. Est ad anim pariatur
-              consequat ad sit nisi.
-            </p>
-            <p>
-              Ipsum ea ad fugiat incididunt ea sit laborum cupidatat in ullamco
-              ullamco fugiat et id. Sit commodo enim enim veniam do. Ad id ad tempor
-              deserunt cupidatat reprehenderit ullamco officia excepteur culpa.
-              Officia amet in do voluptate exercitation pariatur officia et sit.
-              Adipisicing deserunt do aliquip ad id elit sint voluptate sit anim
-              nulla pariatur dolore. Lorem do commodo aute veniam deserunt magna
-              commodo cillum magna veniam. Ea amet nostrud commodo nisi adipisicing
-              cillum commodo. Nostrud aliquip cupidatat veniam culpa aute officia
-              commodo velit. Laborum quis aute nulla amet officia esse proident sunt
-              irure dolor fugiat incididunt occaecat. Commodo esse eiusmod fugiat eu
-              enim nisi sit id ut adipisicing. Enim nisi mollit ea aliqua nisi qui
-              ullamco eu velit et ullamco. Magna eiusmod eiusmod culpa proident
-              minim laboris fugiat enim laborum quis mollit minim do nisi. Elit
-              irure incididunt duis ullamco exercitation nulla fugiat. Eu ullamco
-              aliquip aute consectetur excepteur consequat. Non nostrud officia sint
-              enim et ad sunt amet pariatur deserunt enim reprehenderit. Aute Lorem
-              adipisicing laborum labore labore tempor officia officia reprehenderit
-              incididunt enim officia laborum. Proident eu irure occaecat ipsum elit
-              elit anim eu aute commodo ullamco reprehenderit incididunt elit.
-              Mollit voluptate eiusmod ullamco fugiat ex enim in fugiat et
-              consectetur duis do. Et aliqua ad labore labore ea ipsum nostrud
-              veniam et reprehenderit. Sint ad sit voluptate consequat cillum do
-              fugiat Lorem. Pariatur ad ad reprehenderit cupidatat nulla ipsum
-              voluptate. Dolore pariatur ea laboris est excepteur.
+            Welcome to V-Track, the ultimate solution for optimizing product sales across multiple ecommerce stores.
+With V-Track, you can easily track unique visits to your products and gain valuable insights into customer behavior.
+Our powerful analytics platform integrates seamlessly with popular ecommerce platforms like Wordpress, Magento, and Shopify, making it easy to monitor product performance across multiple stores.
             </p>
           </section>
         </main>
