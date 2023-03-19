@@ -42,16 +42,13 @@ const Dashboard_Main = () => {
                                     </svg>
                                 </button>
                                 <div className="hidden lg:flex items-center">
-                                    <span className="text-base font-normal text-gray-500 mr-5">Open source ❤️</span>
-                                    <div className="-mb-1">
-                                        <a className="github-button" href="#" data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themesberg/windster-tailwind-css-dashboard on GitHub">Star</a>
-                                    </div>
+                                    <span className="text-base font-normal text-gray-500 mr-5"></span>
                                 </div>
-                                <a href="#" className="hidden sm:inline-flex ml-5 text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center mr-3">
+                                <a href="#" itemType='diable' className="hidden sm:inline-flex ml-5 text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center mr-3">
                                     <svg className="svg-inline--fa fa-gem -ml-1 mr-2 h-4 w-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="gem" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M378.7 32H133.3L256 182.7L378.7 32zM512 192l-107.4-141.3L289.6 192H512zM107.4 50.67L0 192h222.4L107.4 50.67zM244.3 474.9C247.3 478.2 251.6 480 256 480s8.653-1.828 11.67-5.062L510.6 224H1.365L244.3 474.9z" />
                                     </svg>
-                                    Upgrade to Pro
+                                    Made with ♡ for Err_404 5.0
                                 </a>
                             </div>
                         </div>
@@ -129,7 +126,7 @@ const Dashboard_Main = () => {
                                         <div className="flex items-center">
                                             <div className="flex-shrink-0">
                                                 <span className="text-2xl sm:text-3xl leading-none font-bold text-gray-900">2,340</span>
-                                                <h3 className="text-base font-normal text-gray-500">New products this week</h3>
+                                                <h3 className="text-base font-normal text-gray-500">Higest Count</h3>
                                             </div>
                                             <div className="ml-5 w-0 flex items-center justify-end flex-1 text-green-500 text-base font-bold">
                                                 14.6%
@@ -143,7 +140,7 @@ const Dashboard_Main = () => {
                                         <div className="flex items-center">
                                             <div className="flex-shrink-0">
                                                 <span className="text-2xl sm:text-3xl leading-none font-bold text-gray-900">5,355</span>
-                                                <h3 className="text-base font-normal text-gray-500">Visitors this week</h3>
+                                                <h3 className="text-base font-normal text-gray-500">Total Purchases</h3>
                                             </div>
                                             <div className="ml-5 w-0 flex items-center justify-end flex-1 text-green-500 text-base font-bold">
                                                 32.9%
@@ -156,8 +153,8 @@ const Dashboard_Main = () => {
                                     <div className="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 ">
                                         <div className="flex items-center">
                                             <div className="flex-shrink-0">
-                                                <span className="text-2xl sm:text-3xl leading-none font-bold text-gray-900">385</span>
-                                                <h3 className="text-base font-normal text-gray-500">User signups this week</h3>
+                                                <span className="text-2xl sm:text-3xl leading-none font-bold text-gray-900">4385</span>
+                                                <h3 className="text-base font-normal text-gray-500">Total Sales</h3>
                                             </div>
                                             <div className="ml-5 w-0 flex items-center justify-end flex-1 text-red-500 text-base font-bold">
                                                 -2.7%
